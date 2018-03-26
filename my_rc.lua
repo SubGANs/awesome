@@ -120,7 +120,7 @@ myawesomemenu = {
 }
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
-                                    { "guitar pro", "/home/subgans/.config/awesome/scripts/run_guitarpro.sh"},
+                                    { "guitar pro", os.getenv("HOME").."/.config/awesome/scripts/run_guitarpro.sh"},
                                     { "terminal", terminal }
                                   }
                         })
