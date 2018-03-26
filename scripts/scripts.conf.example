@@ -1,0 +1,7 @@
+[WEATHER]
+KEY=
+CITY=Irkutsk
+
+[YANDEX.DISK]
+YANDEX_LOGIN=yandex.login
+YANDEX_PASSWORD=password
