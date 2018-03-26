@@ -17,7 +17,7 @@ hotkeys_popup = require("awful.hotkeys_popup").widget
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
 
-local menubar = require("menubar")
+menubar = require("menubar")
 
 
 -- Подключенные библиотеки
