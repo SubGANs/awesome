@@ -162,10 +162,13 @@ require("signals")
 
 
 -- Список программ для атвозапуска с Awesome
+os.execute ("/usr/local/bin/toggle_hdmi.sh")
+
 os.execute ("pgrep -u $USER -x audaciuos || (audacious &)")
 os.execute ("pgrep -u $USER -x thunderbird || (thunderbird &)")
 -- os.execute ("pgrep -u $USER -x pidgin || (pidgin &)")
 os.execute ("pgrep -u $USER -x telegram || (/opt/Telegram/Telegram &)")
 os.execute ("pgrep -u $USER -x subl3 || (subl3 &)")
 os.execute ("pgrep -u $USER -x keepass || (keepass &)")
+os.execute ("pgrep -u $USER -x flameshot || (flameshot &)")
 -- os.execute ("pgrep -u $USER -x deluge || (deluge &)")
