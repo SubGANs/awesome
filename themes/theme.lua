@@ -37,7 +37,7 @@ theme.colors.panel1 = "#004051"
 -- }}}
 
 -- {{{ Styles
-theme.font      = "Terminus 9"
+theme.font      = "Terminus 11"
 
 -- {{{ Colors
 theme.fg_normal  = theme.colors.base02
@@ -74,8 +74,8 @@ theme.mouse_finder_color = theme.colors.green
 -- Variables set for theming the menu:
 -- menu_[bg|fg]_[normal|focus]
 -- menu_[border_color|border_width]
-theme.menu_height = "15"
-theme.menu_width  = "100"
+theme.menu_height = "20"
+theme.menu_width  = "150"
 -- }}}
 
 
